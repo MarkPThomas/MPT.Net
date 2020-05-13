@@ -1,0 +1,121 @@
+ SAP2000 v20.1.0 Ultimate 64-bit (Analysis Build 9626/64)                       
+ File: D:\GitHub\personal\MPT....SI\API\MPT.CSI.Serialize.SAP2000\model\test.OUT
+                                                                     
+                                                                       
+
+ DIAPH1, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            2915.025    2916.025     .000000     .000000     .000000  103057.309
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     -4.552788   -4.548141     .000000
+     Y      2.593335    2.594503     .000000
+     Z      5.626732    5.626860    3.000000
+
+ DIAPH1_0., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            4.753070    4.753070     .000000     .000000     .000000  328.321051
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     -0.084507   -0.084507     .000000
+     Y      0.042254    0.042254     .000000
+     Z       .000000     .000000     .000000
+
+ DIAPH1_3., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          353.189507  353.189507     .000000     .000000     .000000   12183.899
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     -5.494363   -5.494363     .000000
+     Y     -0.925313   -0.925313     .000000
+     Z      3.000000    3.000000    3.000000
+
+ DIAPH1_6., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            2557.083    2558.083     .000000     .000000     .000000   85076.318
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     -4.431042   -4.425791     .000000
+     Y      3.084080    3.085220     .000000
+     Z      6.000000    6.000000    6.000000
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              U1  U2  U3  R1  R2  R3
+       1               -   -   -   +   A   +
+       2 TO       3    +   +   A   A   A   +
+       4               -   -   -   A   A   +
+       5 TO       6    +   +   A   A   A   +
+       7               -   -   -   A   A   +
+       8               A   +   +   +   A   A
+       9               +   +   A   A   A   +
+      10               -   -   -   A   A   +
+      11 TO      12    +   +   A   A   A   +
+      13               -   -   -   A   A   +
+      14 TO      15    +   +   A   A   A   +
+      16               -   -   -   A   A   +
+      17 TO      18    +   +   A   A   A   +
+      19               -   -   -   A   A   +
+      20 TO      21    +   +   A   A   A   +
+      22               -   -   -   A   A   +
+      23 TO      24    +   +   A   A   A   +
+      25               -   -   -   A   A   +
+      26 TO      27    +   +   A   A   A   +
+      28               -   -   -   A   A   +
+      29               +   +   A   A   A   +
+      30               A   +   +   +   A   A
+      31               -   -   -   A   A   +
+      32 TO      33    +   +   A   A   A   +
+      34               -   -   -   A   A   +
+      35 TO      36    +   +   A   A   A   +
+      37 TO     ~35    A   A   A   A   A   A
+     ~36 TO     ~37    +   +   +   A   A   +
+     ~38               +   A   A   A   A   A
+     ~39               +   +   +   A   A   +
+     ~40 TO     ~42    +   +   A           +
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ DIAPH1  TO DIAPH1_                         

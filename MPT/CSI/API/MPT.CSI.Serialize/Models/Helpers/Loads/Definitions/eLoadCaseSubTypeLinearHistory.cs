@@ -1,0 +1,32 @@
+﻿// ***********************************************************************
+// Assembly         : MPT.CSI.API
+// Author           : Mark Thomas
+// Created          : 06-10-2017
+//
+// Last Modified By : Mark Thomas
+// Last Modified On : 09-29-2017
+// ***********************************************************************
+// <copyright file="eLoadCaseSubTypeLinearHistory.cs" company="">
+//     Copyright ©  2017
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
+namespace MPT.CSI.Serialize.Models.Helpers.Loads.Definitions
+{
+    /// <summary>
+    /// Load case subtypes available in the program for linear modal time history load cases.
+    /// </summary>
+    public enum eLoadCaseSubTypeLinearHistory
+    {
+        /// <summary>
+        /// Transient linear modal time history.
+        /// </summary>
+        Transient = 1,
+
+        /// <summary>
+        /// Periodic linear modal time history.
+        /// </summary>
+        Periodic = 2
+    }
+}

@@ -1,0 +1,17 @@
+ SAP2000 v20.1.0 Ultimate 64-bit (Analysis Build 9626/64)                       
+ File: D:\GitHub\personal\MPT....rialize.SAP2000\RCDF 2004 CFD Ex003 - test2.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1               -   -   -   -   A    
+       2               A   -   -       A    
+       4               A       A       A    

@@ -1,0 +1,63 @@
+﻿// ***********************************************************************
+// Assembly         : MPT.CSI.OOAPI
+// Author           : Mark Thomas
+// Created          : 12-14-2018
+//
+// Last Modified By : Mark Thomas
+// Last Modified On : 12-14-2018
+// ***********************************************************************
+// <copyright file="MaterialMechanicsIsotropic.cs" company="">
+//     Copyright ©  2018
+// </copyright>
+// <summary></summary>
+// ***********************************************************************
+
+using MPT.CSI.Serialize.Models.Helpers.Definitions.Materials;
+
+namespace MPT.CSI.Serialize.Models.Components.Definitions.Materials
+{
+    /// <summary>
+    /// Class MaterialMechanicsIsotropic.
+    /// </summary>
+    /// <seealso cref="MaterialMechanics" />
+    public class MaterialMechanicsIsotropic : MaterialMechanics
+    {
+        #region Fields & Properties
+
+        /// <summary>
+        /// Gets the isotropic properties.
+        /// </summary>
+        /// <value>The isotropic properties.</value>
+        public MechanicalIsotropicProperties IsotropicProperties { get; internal set; }
+
+        #endregion
+
+        #region Initialization
+
+        /// <summary>
+        /// Factories the specified application.
+        /// </summary>
+        /// <param name="uniqueName">Name of the unique material.</param>
+        /// <param name="temperature">The temperature.</param>
+        /// <returns>MaterialMechanicsIsotropic.</returns>
+        internal static MaterialMechanicsIsotropic Factory(
+            string uniqueName,
+            double temperature = 0)
+        {
+            MaterialMechanicsIsotropic material = new MaterialMechanicsIsotropic(uniqueName, temperature);
+            return material;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MaterialMechanicsIsotropic" /> class.
+        /// </summary>
+        /// <param name="name">The name.</param>
+        /// <param name="temperature">The temperature.</param>
+        protected MaterialMechanicsIsotropic(
+            string name,
+            double temperature = 0) : base(name, eMaterialSymmetryType.Isotropic, temperature)
+        {
+        }
+        #endregion
+    }
+}

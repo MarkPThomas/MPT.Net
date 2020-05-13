@@ -1,0 +1,45 @@
+
+	
+
+
+        #region Fields & Properties
+
+
+
+        #endregion
+
+        #region Initialization
+
+
+
+        #endregion
+
+        #region Fill/Set
+
+
+
+        #endregion
+		
+		#region CRUD
+
+        
+
+        #endregion
+		
+        #region Static
+
+
+
+        #endregion
+		
+        #region Protected
+
+
+
+        #endregion
+		
+        #region API Functions
+
+
+
+        #endregion

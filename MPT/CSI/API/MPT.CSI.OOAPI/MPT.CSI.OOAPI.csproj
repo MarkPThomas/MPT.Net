@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug-ETABS2017</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0804B496-A5F1-4DF7-8045-5D9B072EC95B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MPT.CSI.OOAPI</RootNamespace>
+    <AssemblyName>MPT.CSI.OOAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-ETABS2017|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-ETABS2017\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_ETABS2017</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-ETABS2017\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-ETABS2016|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-ETABS2016\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_ETABS2016</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-ETABS2016\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-ETABS2015|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-ETABS2015\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_ETABS2015</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-ETABS2015\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-SAP2000v20|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-SAP2000v20\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v20</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-SAP2000v20\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-SAP2000v19|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-SAP2000v19\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v19</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-SAP2000v19\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-SAP2000v18|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-SAP2000v18\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v18</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-SAP2000v18\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-SAP2000v17|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-SAP2000v17\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v17</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-SAP2000v17\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-SAP2000v16|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-SAP2000v16\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v16</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Debug-SAP2000v16\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-CSiBridgev20|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-CSiBridgev20\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev20</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Debug-CSiBridgev20\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-CSiBridgev19|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-CSiBridgev19\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev19</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Debug-CSiBridgev19\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-CSiBridgev18|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-CSiBridgev18\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev18</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Debug-CSiBridgev18\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-CSiBridgev17|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-CSiBridgev17\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev17</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Debug-CSiBridgev17\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug-CSiBridgev16|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\AnyCPU\Debug-CSiBridgev16\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev16</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Debug-CSiBridgev16\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-ETABS2017|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-ETABS2017\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_ETABS2017</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-ETABS2017\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-ETABS2016|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-ETABS2016\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_ETABS2016</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-ETABS2016\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-ETABS2015|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-ETABS2015\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_ETABS2015</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-ETABS2015\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-SAP2000v20|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-SAP2000v20\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v20</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-SAP2000v20\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-SAP2000v19|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-SAP2000v19\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v19</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-SAP2000v19\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-SAP2000v18|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-SAP2000v18\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v18</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-SAP2000v18\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-SAP2000v17|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-SAP2000v17\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v17</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-SAP2000v17\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-SAP2000v16|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-SAP2000v16\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_SAP2000v16</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AnyCPU\Release-SAP2000v16\MPT.CSI.OOAPI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-CSiBridgev20|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-CSiBridgev20\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev20</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Release-CSiBridgev20\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-CSiBridgev19|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-CSiBridgev19\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev19</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Release-CSiBridgev19\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-CSiBridgev18|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-CSiBridgev18\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev18</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Release-CSiBridgev18\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-CSiBridgev17|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-CSiBridgev17\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev17</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Release-CSiBridgev17\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-CSiBridgev16|AnyCPU'">
+    <OutputPath>bin\AnyCPU\Release-CSiBridgev16\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BUILD_CSiBridgev16</DefineConstants>
+    <DocumentationFile>bin\AnyCPU\Release-CSiBridgev16\MPT.CSI.OOAPI.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSiBridge18, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\CSiBridge18.dll</HintPath>
+    </Reference>
+    <Reference Include="CSiBridge19, Version=19.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\CSiBridge19.dll</HintPath>
+    </Reference>
+    <Reference Include="ETABS2015, Version=15.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ETABS2015.dll</HintPath>
+    </Reference>
+    <Reference Include="ETABS2016, Version=16.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ETABS2016.dll</HintPath>
+    </Reference>
+    <Reference Include="ETABSv17">
+      <HintPath>..\lib\ETABSv17.dll</HintPath>
+    </Reference>
+    <Reference Include="MPT.Batch">
+      <HintPath>..\lib\MPT.Batch.dll</HintPath>
+    </Reference>
+    <Reference Include="MPT.Enums, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\MPT.Enums.dll</HintPath>
+    </Reference>
+    <Reference Include="MPT.Files">
+      <HintPath>..\lib\MPT.Files.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP2000v17, Version=17.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\SAP2000v17.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP2000v18, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\SAP2000v18.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP2000v19, Version=19.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\SAP2000v19.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP2000v20">
+      <HintPath>..\lib\SAP2000v20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\CSiApplication.cs" />
+    <Compile Include="Core\Helpers\ApiProperty.cs" />
+    <Compile Include="Core\Helpers\ApiPropertyObject.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\AreaSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\ASolidProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\DeckExtendedProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\DeckFilledProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\DeckProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\DeckSolidSlabProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\DeckUnfilledProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\PlaneProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\ShellDesignProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\ShellLayeredProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\ShellLayerProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\ShellProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\SlabExtendedProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\SlabProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\SlabRibbedProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\SlabWaffleProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\AreaSections\WallProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\AngleSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\BeamRebarDetailing.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\ChannelSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\CircleSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\ColumnRebarDetailing.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\ConcreteLSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\ConcreteTeeSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\CoverPlatedISectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\DoubleAngleSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\DoubleChannelSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\FrameSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\GeneralSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\GroupProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\ISectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\AluminumProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\AluminumTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ColdFormedSteelProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ColdFormedSteelTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ConcreteAngleProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ConcreteProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ConcreteTemplates.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\DampingProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ElasticModulusProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\eMaterialRegion.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MasonryProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MasonryTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MaterialProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MaterialTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MechanicalAnisotropicProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MechanicalUniaxialProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MechanicalIsotropicProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MechanicalOrthotropicProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\MetalProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\NoDesignTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\PoissonsRatioAnisotropicProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\PoissonsRatioOrthotropicProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\RebarProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\RebarTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ShearModulusProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\SteelMetalProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\SteelProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\SteelTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\StressStrainCurve.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\StressStrainPoint.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\TendonMaterialProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\TendonTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ThermalExpansionAnisotropicCoefficients.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\ThermalExpansionOrthotropicCoefficients.cs" />
+    <Compile Include="Core\Helpers\Definitions\Materials\UserDefinedTemplate.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\NonPrismaticSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\SectionDesignerProperties.cs" />
+    <Compile Include="Core\Helpers\GeneralData.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\PipeSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\RectangleSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\SectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\SectionResultantProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\SteelAngleSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\SteelTeeSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\TeeSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Definitions\Sections\FrameSections\TubeSectionProperties.cs" />
+    <Compile Include="Core\Helpers\Design\CompositeBeamResultsSummary.cs" />
+    <Compile Include="Core\Helpers\Design\ConcreteResultsSummaryBeam.cs" />
+    <Compile Include="Core\Helpers\Design\ConcreteResultsSummaryColumn.cs" />
+    <Compile Include="Core\Helpers\Design\ConcreteResultsSummaryJoint.cs" />
+    <Compile Include="Core\Helpers\Design\FrameResultsSummary.cs" />
+    <Compile Include="Core\Helpers\Design\ResultsSummary.cs" />
+    <Compile Include="Core\Helpers\Design\SteelResultsDetailedNumeric.cs" />
+    <Compile Include="Core\Helpers\Design\SteelResultsDetailedText.cs" />
+    <Compile Include="Core\Helpers\Design\SteelResultsSummary.cs" />
+    <Compile Include="Core\Helpers\Design\SteelResultsSummaryExpanded.cs" />
+    <Compile Include="Core\Helpers\Design\TargetDisplacement.cs" />
+    <Compile Include="Core\Helpers\Design\TargetPeriod.cs" />
+    <Compile Include="Core\Helpers\HelperFunctions.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\DampingInterpolated.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\DampingOverride.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\DampingProportional.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\DiaphragmEccentricityOverride.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\DirectionCombination.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadResponseSpectrum.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadsTimeHistory.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadTimeHistory.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\ModalCombination.cs" />
+    <Compile Include="Core\Helpers\ObjectExtensions.cs" />
+    <Compile Include="Core\Helpers\RelativeAbsoluteCoordinate.cs" />
+    <Compile Include="Core\Helpers\RelativeAbsoluteLength.cs" />
+    <Compile Include="Core\Helpers\Results\AssembledJointMass.cs" />
+    <Compile Include="Core\Helpers\Results\BaseReactions.cs" />
+    <Compile Include="Core\Helpers\Results\GeneralizedDisplacementResult.cs" />
+    <Compile Include="Core\Helpers\Results\GeneralizedDisplacementResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\ModalLoadParticipationRatio.cs" />
+    <Compile Include="Core\Helpers\Results\ModalLoadParticipationResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\ModalParticipatingMassRatio.cs" />
+    <Compile Include="Core\Helpers\Results\ModalParticipationFactor.cs" />
+    <Compile Include="Core\Helpers\Results\ModalPeriod.cs" />
+    <Compile Include="Core\Helpers\Results\ShellForce.cs" />
+    <Compile Include="Core\Helpers\Results\ShellStress.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\BeamTemplate.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameAutoMesh.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameEndLengthOffset.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameFireProofing.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\Frame2DTemplate.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\Frame3DTemplate.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameInsertionPoint.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameOutputStation.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameSupport.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\GridTemplate.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameHinge.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\FrameLateralBracing.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\Release.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\SolidBlockTemplate.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\SteelDeckTemplate.cs" />
+    <Compile Include="Core\Helpers\StructureLayout\WallTemplate.cs" />
+    <Compile Include="Core\Program\CSiFile.cs" />
+    <Compile Include="Core\Program\CSiModel.cs" />
+    <Compile Include="Core\Program\Model\Analysis\AnalysisResults.cs" />
+    <Compile Include="Core\Program\Model\Analysis\Analyzer.cs" />
+    <Compile Include="Core\Program\Model\Analysis\AreaResults.cs" />
+    <Compile Include="Core\Program\Model\Analysis\BaseReactionResults.cs" />
+    <Compile Include="Core\Helpers\Results\ElementResultsIdentifier.cs" />
+    <Compile Include="Core\Program\Model\Analysis\FrameResults.cs" />
+    <Compile Include="Core\Helpers\Results\JointDrifts.cs" />
+    <Compile Include="Core\Helpers\Results\JointLabelNameResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\JointResponseSpectrum.cs" />
+    <Compile Include="Core\Helpers\Results\JointResponseSpectrumIdentifier.cs" />
+    <Compile Include="Core\Program\Model\Analysis\JointResults.cs" />
+    <Compile Include="Core\Helpers\Results\LabelNameResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\LayeredShellStress.cs" />
+    <Compile Include="Core\Program\Model\Analysis\LinkResults.cs" />
+    <Compile Include="Core\Program\Model\Analysis\MiscResults.cs" />
+    <Compile Include="Core\Helpers\Results\ObjectPointResultsIdentifier.cs" />
+    <Compile Include="Core\Program\Model\Analysis\PanelZoneResults.cs" />
+    <Compile Include="Core\Program\Model\Analysis\PierResults.cs" />
+    <Compile Include="Core\Program\Model\Analysis\SectionCutResults.cs" />
+    <Compile Include="Core\Helpers\Results\SectionCutResultsIdentifier.cs" />
+    <Compile Include="Core\Program\Model\Analysis\SolidResults.cs" />
+    <Compile Include="Core\Helpers\Results\StationResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\ElementPointResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\ObjectResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\PierSpandrelResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\ResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\StepResultsIdentifier.cs" />
+    <Compile Include="Core\Helpers\Results\StoryDrifts.cs" />
+    <Compile Include="Core\Program\Model\Analysis\SpandrelResults.cs" />
+    <Compile Include="Core\Program\Model\Analysis\StoryResults.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\AreaLoadUniformToFrame.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\Load.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\LoadTemperature.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\NodeLoadDisplacement.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Diaphragms.cs" />
+    <Compile Include="Core\Helpers\Definitions\Abstractions\PanelZoneProperties.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Piers.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Spandrels.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Stories.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\AreaSections.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\ASolid.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\Deck.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\DeckExtended.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\DeckFilled.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\DeckSolidSlab.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\DeckUnfilled.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\Plane.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\Shell.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\ShellBase.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\ShellDesign.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\ShellLayered.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\Slab.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\SlabRibbed.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\SlabWaffle.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\Wall.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\WallAutoSelect.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\FrameSections.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\AngleSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ChannelSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\CircleSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ColdCSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ColdHatSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ColdZSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ConcreteLSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ConcreteTeeSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\CoverPlatedISection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\DoubleAngleSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\DoubleChannelSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\GeneralSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\HybridISection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\HybridUSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ISection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\NonPrismaticSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\PipeSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\PlateSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\BeamRebar.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\ColumnRebar.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\PrecastISection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\PrecastUSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\RodSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\SectionDesigner.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\SteelAngleSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\SteelTeeSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\TeeSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\TubeSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\SlabExtended.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Functions\Function.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Functions\ResponseSpectrumFunction.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Functions\TimeHistoryFunction.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Groups.cs" />
+    <Compile Include="Core\Program\Model\Definitions\GroupsDesign.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\MaterialMechanicsAnisotropic.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\MaterialByTemperature.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\MaterialMechanicsIsotropic.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\MaterialMechanicsOrthotropic.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\MaterialMechanicsUniaxial.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Materials.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\NoDesign.cs" />
+    <Compile Include="Core\Program\Model\Definitions\SectionCut.cs" />
+    <Compile Include="Core\Program\Model\Definitions\SectionCuts.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Solids\SolidProperties.cs" />
+    <Compile Include="Core\Program\Model\Design\AluminumDesignResults.cs" />
+    <Compile Include="Core\Program\Model\Design\CompositeBeamDesigner.cs" />
+    <Compile Include="Core\Program\Model\Design\CompositeBeamDesignResults.cs" />
+    <Compile Include="Core\Program\Model\Design\ConcreteDesigner.cs" />
+    <Compile Include="Core\Program\Model\Design\ConcreteDesignResults.cs" />
+    <Compile Include="Core\Program\Model\Design\Designer.cs" />
+    <Compile Include="Core\Program\Model\Design\DesignerMetal.cs" />
+    <Compile Include="Core\Program\Model\Design\DesignResults.cs" />
+    <Compile Include="Core\Program\Model\Design\SteelDesigner.cs" />
+    <Compile Include="Core\Program\Model\Design\SteelDesignResults.cs" />
+    <Compile Include="Core\Program\Model\Design\AluminumDesigner.cs" />
+    <Compile Include="Core\Program\Model\Design\SteelColdFormedDesigner.cs" />
+    <Compile Include="Core\Program\Model\Design\SteelColdFormedDesignResults.cs" />
+    <Compile Include="Core\Program\Model\Design\TargetDisplacements.cs" />
+    <Compile Include="Core\Program\Model\Design\TargetPeriods.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\DampingHelper.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\InitialCaseHelper.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\LoadsAppliedHelper.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\MassSourceHelper.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\ModalCaseHelper.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\NonlinearSettingsHelper.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistoryDirectIntegration.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistoryDirectLinear.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistoryDirectNonlinear.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistoryModal.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistoryModalLinear.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistoryModalNonlinear.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadCases.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadCombinations.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadCombinationsDeflection.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadCombinationsStrength.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadPatterns.cs" />
+    <Compile Include="Core\Program\Model\StructureAnalysis.cs" />
+    <Compile Include="Core\Program\Model\StructureComponents.cs" />
+    <Compile Include="Core\Program\Model\StructureComponentsProperties.cs" />
+    <Compile Include="Core\Program\Model\StructureDesign.cs" />
+    <Compile Include="Core\Program\Model\StructureGroupings.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Areas.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Cables.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Frames.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Links.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Points.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Solids.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Tendons.cs" />
+    <Compile Include="Core\Program\Model\StructureLoading.cs" />
+    <Compile Include="Core\Program\Model\StructureObjects.cs" />
+    <Compile Include="Core\Support\CSiOoApiBaseBase.cs" />
+    <Compile Include="Core\Support\CSiOOAPiName.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Diaphragm.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Pier.cs" />
+    <Compile Include="Core\Helpers\Definitions\Abstractions\PierProperties.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\PierSpandrelBase.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Spandrel.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\Story.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Areas\AreaSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\CrossSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\FrameSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\CrossSections\Frames\RectangleSection.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Group.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Links\LinkProperties.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Masses\Mass.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Masses\MassSource.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Aluminum.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\ColdFormed.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Concrete.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Masonry.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Material.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\MaterialMechanics.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Rebar.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\Steel.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Materials\TendonMaterial.cs" />
+    <Compile Include="Core\Program\Model\Definitions\DefinitionElement.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Tendons\TendonProperties.cs" />
+    <Compile Include="Core\Support\IFill.cs" />
+    <Compile Include="Core\Program\Model\Loads\AutoLoadPattern.cs" />
+    <Compile Include="Core\Program\Model\Loads\AutoSeismic.cs" />
+    <Compile Include="Core\Program\Model\Loads\AutoWind.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadApplication.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\Modal.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\ModalEigen.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\ModalRitz.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\ResponseSpectrum.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\ResultsSaved.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\SolutionControlParameters.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\StageOperations.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\StageOperation.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\StageDefinition.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\StageDefinitions.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\StageResultsSaved.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\StaticLinear.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\StaticNonlinear.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\StaticNonlinearStaged.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\TargetForceParameters.cs" />
+    <Compile Include="Core\Program\Model\Loads\Cases\TimeHistory.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadPatternTuple.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadPatternTuples.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\AreaLoadWindPressure.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Cable.cs" />
+    <Compile Include="Core\Program\Model\Definitions\Abstractions\PanelZone.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\StructureObject.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\AreaLoadUniform.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\FrameLoadDistributed.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\FrameLoadPoint.cs" />
+    <Compile Include="Core\Helpers\Loads\Assignments\NodeLoad.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadCase.cs" />
+    <Compile Include="Core\Helpers\Loads\Definitions\LoadTuple.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadCombination.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadPattern.cs" />
+    <Compile Include="Core\Program\Model\Loads\LoadPatternAssignment.cs" />
+    <Compile Include="Core\Program\Model\ProjectSettings\Constants.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Area.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Frame.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Link.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Point.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\StructureObject2D.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\StructureObjectIdentifier.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Solid.cs" />
+    <Compile Include="Core\Program\Model\StructureLayout\Tendon.cs" />
+    <Compile Include="Core\Support\CSiOoApiBase.cs" />
+    <Compile Include="Core\Support\IUniqueName.cs" />
+    <Compile Include="Core\Support\ObjectLists.cs" />
+    <Compile Include="Core\Support\ObjectLists2D.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\Program\Model\Definitions\Springs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MPT.CSI.API\MPT.CSI.API.csproj">
+      <Project>{6460b748-90a5-4409-88f4-de9f46c6ae86}</Project>
+      <Name>MPT.CSI.API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

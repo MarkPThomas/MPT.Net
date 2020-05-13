@@ -1,0 +1,546 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Program_x0020_Control">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProgramName" type="xs:string" minOccurs="0" />
+              <xs:element name="Version" type="xs:string" minOccurs="0" />
+              <xs:element name="ProgLevel" type="xs:string" minOccurs="0" />
+              <xs:element name="LicenseNum" type="xs:string" minOccurs="0" />
+              <xs:element name="LicenseOS" type="xs:string" minOccurs="0" />
+              <xs:element name="LicenseSC" type="xs:string" minOccurs="0" />
+              <xs:element name="LicenseHT" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrUnits" type="xs:string" minOccurs="0" />
+              <xs:element name="SteelCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ConcCode" type="xs:string" minOccurs="0" />
+              <xs:element name="AlumCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ColdCode" type="xs:string" minOccurs="0" />
+              <xs:element name="RegenHinge" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Element_x0020_Forces_x0020_-_x0020_Frames">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Frame" type="xs:string" minOccurs="0" />
+              <xs:element name="Station" type="xs:double" minOccurs="0" />
+              <xs:element name="OutputCase" type="xs:string" minOccurs="0" />
+              <xs:element name="CaseType" type="xs:string" minOccurs="0" />
+              <xs:element name="P" type="xs:double" minOccurs="0" />
+              <xs:element name="V2" type="xs:double" minOccurs="0" />
+              <xs:element name="V3" type="xs:double" minOccurs="0" />
+              <xs:element name="T" type="xs:double" minOccurs="0" />
+              <xs:element name="M2" type="xs:double" minOccurs="0" />
+              <xs:element name="M3" type="xs:double" minOccurs="0" />
+              <xs:element name="FrameElem" type="xs:string" minOccurs="0" />
+              <xs:element name="ElemStation" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Frame" type="xs:string" minOccurs="0" />
+              <xs:element name="DesignSect" type="xs:string" minOccurs="0" />
+              <xs:element name="DesignType" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Location" type="xs:double" minOccurs="0" />
+              <xs:element name="FTopCombo" type="xs:string" minOccurs="0" />
+              <xs:element name="FTopArea" type="xs:double" minOccurs="0" />
+              <xs:element name="FBotCombo" type="xs:string" minOccurs="0" />
+              <xs:element name="FBotArea" type="xs:double" minOccurs="0" />
+              <xs:element name="VCombo" type="xs:string" minOccurs="0" />
+              <xs:element name="VRebar" type="xs:double" minOccurs="0" />
+              <xs:element name="ErrMsg" type="xs:string" minOccurs="0" />
+              <xs:element name="WarnMsg" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Program_x0020_Control>
+    <ProgramName>SAP2000</ProgramName>
+    <Version>20.1.0</Version>
+    <ProgLevel>Ultimate</ProgLevel>
+    <LicenseNum>2010*19S7SB397J75QQC</LicenseNum>
+    <LicenseOS>Yes</LicenseOS>
+    <LicenseSC>Yes</LicenseSC>
+    <LicenseHT>No</LicenseHT>
+    <CurrUnits>KN, m, C</CurrUnits>
+    <SteelCode>AISC360-05/IBC2006</SteelCode>
+    <ConcCode>Mexican RCDF 2004</ConcCode>
+    <AlumCode>AA-ASD 2000</AlumCode>
+    <ColdCode>AISI-ASD96</ColdCode>
+    <RegenHinge>Yes</RegenHinge>
+  </Program_x0020_Control>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>0.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>3.837E-14</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>0.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>0.5</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>117.75</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>0.5</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>1.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>235.5</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>1.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>1.5</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>353.25</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>1.5</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>2.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>2.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>2.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-1.044E-13</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>2.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>2.5</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-1.044E-13</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>2.5</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>3.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>3.411E-13</P>
+    <V2>-1.044E-13</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-1</FrameElem>
+    <ElemStation>3.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>3.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>0.</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>0.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>3.5</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>0.</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>0.5</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>4.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>0.</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>1.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>4.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>471.</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>1.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>4.5</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>353.25</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>1.5</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>5.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>235.5</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>2.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>5.5</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>117.75</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>2.5</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Element_x0020_Forces_x0020_-_x0020_Frames>
+    <Frame>1</Frame>
+    <Station>6.</Station>
+    <OutputCase>COMB1</OutputCase>
+    <CaseType>Combination</CaseType>
+    <P>0.</P>
+    <V2>235.5</V2>
+    <V3>0.</V3>
+    <T>0.</T>
+    <M2>0.</M2>
+    <M3>-1.905E-14</M3>
+    <FrameElem>1-2</FrameElem>
+    <ElemStation>3.</ElemStation>
+  </Element_x0020_Forces_x0020_-_x0020_Frames>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>0.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.001467</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>0.5</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00069029</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.001351</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>1.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.0014287</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.001227</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>1.5</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00222694</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.00111</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>2.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.00111</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>2.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.000319</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>2.5</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.000319</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>3.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.000319</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>3.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.000319</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>3.5</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.000319</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>4.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.000319</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>4.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00311505</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.00111</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>4.5</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00222694</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.00111</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>5.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.0014287</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.001227</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>5.5</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.00069029</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.001351</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+  <Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+    <Frame>1</Frame>
+    <DesignSect>FSEC1</DesignSect>
+    <DesignType>Beam</DesignType>
+    <Status>No Messages</Status>
+    <Location>6.</Location>
+    <FTopCombo>COMB1</FTopCombo>
+    <FTopArea>0.</FTopArea>
+    <FBotCombo>COMB1</FBotCombo>
+    <FBotArea>0.</FBotArea>
+    <VCombo>COMB1</VCombo>
+    <VRebar>0.001467</VRebar>
+    <ErrMsg>No Messages</ErrMsg>
+    <WarnMsg>No Messages</WarnMsg>
+  </Concrete_x0020_Design_x0020_2_x0020_-_x0020_Beam_x0020_Summary_x0020_Data_x0020_-_x0020_Mexican_x0020_RCDF_x0020_2004>
+</NewDataSet>
